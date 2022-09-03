@@ -29,6 +29,28 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Monika logo" />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Monika Logo"
+        /></a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About page">About</a>
+          </li>
+          <li><a href="/work.html" title="Monika's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Monika">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -41,13 +63,55 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding"> See my projects</a>
+            <a href="/work.html" class="btn btn-branding"> See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
           <img src="images/patricia.png" alt="patricia" class="img-fluid" />
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Monika"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:monika@gmail.com"
+            class="email-link"
+            title="Email Monika"
+            >monika@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="" target="_blank" title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="" target="_blank" title="LinkedIn Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Monika, and it is
+          <a
+            href="http://https://github.com/la-coccinelle/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
